@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html style="padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;">
+<head>
+  <style>
+    .grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      column-gap: 50px;
+      row-gap: 50px;
+    }
+    .picture{
+      width: 70px;
+      height: 70px;
+        border-radius:  50px;
+        vertical-align: middle;
+        
+
+      }
+      .textbox{
+        vertical-align: middle;
+        border-color: white;
+        border-style: solid;
+        
+        
+       
+      }
+      .textbox:active{
+        border-color: white;
+      }
+      .tweet{
+       margin-left: 200px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border-radius: 20px;
+        color:white;
+        background-color: rgba(88, 178, 252, 0.9);
+        border-color: rgba(88, 178, 252, 0.9);
+        border-style: solid;
+      }
+      .tweet-box{
+        
+        background-color:white;
+        width: 100%;
+       
+        border-radius: 300px;
+       
+        box-shadow: 10px 10px 10px rgba(71, 206, 255, 0.184);
+       
+        
+      }
+
+  </style>
+
+  <title>grid</title>
+</head>
+<body>
+  
+  <div class="grid">
+    <div class="tweet-box">
+      <body>
+        <img class="picture" src="hq720.webp"> 
+        <input class="textbox" type="text" placeholder="What's happening?">
+        <button class="tweet">
+          Tweet
+        </button> </div>
+        
+        <div class="tweet-box">
+          <body>
+            <img class="picture" src="hq720.webp"> 
+            <input class="textbox" type="text" placeholder="What's happening?">
+            <button class="tweet">
+              Tweet
+            </button> </div>
+            
+            <div class="tweet-box">
+              <body>
+                <img class="picture" src="hq720.webp"> 
+                <input class="textbox" type="text" placeholder="What's happening?">
+                <button class="tweet">
+                  Tweet
+                </button> </div>
+  
+
+  </div>
+  
+  
+</body>
+</html>
